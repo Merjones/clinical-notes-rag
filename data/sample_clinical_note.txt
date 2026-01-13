@@ -1,0 +1,22 @@
+SYNTHETIC CLINICAL NOTE (FOR DEMO ONLY)
+
+Chief Complaint: Shortness of breath and cough for 3 days.
+
+HPI:
+45-year-old with history of asthma presents with wheezing, chest tightness, and non-productive cough.
+No fever. Reports using albuterol inhaler more frequently. No known sick contacts.
+
+Vitals:
+T 98.6 F, HR 96, BP 132/84, RR 20, SpO2 94% on room air.
+
+Exam:
+Diffuse expiratory wheezes. No crackles. Speaking full sentences.
+
+Assessment:
+Asthma exacerbation likely triggered by viral URI or allergen exposure.
+
+Plan:
+- Albuterol nebulizer q4h PRN
+- Consider short course oral prednisone if symptoms persist
+- Encourage hydration, monitor peak flow
+- Return precautions for worsening SOB, persistent hypoxia, or inability to speak full sentences
