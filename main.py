@@ -52,13 +52,10 @@ def build_faiss_index(embeddings: np.ndarray) -> faiss.IndexFlatIP:
     return index
 
 
-def retrieve(
-    question: str,
-    embedder: SentenceTransformer,
-    index: faiss.IndexFlatIP,
-    chunks: List[str],
-    top_k: int = 3,
-) -> List[Tuple[int, float, str]]:
+def retrieve(question: str, embedder: SentenceTransformer, index: faiss.IndexFlatIP,
+    chunks: List[str], top_k: int = 3, ) -> List[Tuple[int, float, str]]:
+
+
     q_emb = embedder.encode([question], convert_to_numpy=True).astype("float32")
     faiss.normalize_L2(q_emb)
 
@@ -132,7 +129,7 @@ def main():
     context_chunks = []
     for rank, (idx, score, chunk) in enumerate(retrieved, start=1):
         print(f"\n[#{rank}] chunk_id={idx} score={score:.4f}")
-        print(chunk[:800] + ("..." if len(chunk) > 800 else ""))
+        # print(chunk[:800] + ("..." if len(chunk) > 800 else ""))
         context_chunks.append(chunk)
 
     print("\n=== Generated Answer ===")
