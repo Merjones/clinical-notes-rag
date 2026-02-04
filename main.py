@@ -21,7 +21,6 @@ def read_text(path: str) -> str:
 def chunk_text(text: str, chunk_size: int = 500, overlap: int = 100) -> List[str]:
     """
     Simple character-based chunking.
-    Good enough for a portfolio demo; easy to understand.
     """
     text = text.strip()
     if not text:
