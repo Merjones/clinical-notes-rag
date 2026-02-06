@@ -50,8 +50,7 @@ class RAGEngine:
         self.index: Optional[faiss.IndexFlatIP] = None
         self._build_index()
 
-    # ---------- File loading ----------
-
+    # ---------- File loading ---------- (utility method)
     @staticmethod
     def read_text(path: str) -> str:
         with open(path, "r", encoding="utf-8") as f:
@@ -67,8 +66,7 @@ class RAGEngine:
         paths.sort()
         return paths
 
-    # ---------- Chunking ----------
-
+    # ---------- Chunking ---------- (utility method)
     @staticmethod
     def chunk_text(text: str, chunk_size: int = 500, overlap: int = 100) -> List[str]:
         """
@@ -91,8 +89,7 @@ class RAGEngine:
                 break
         return chunks
 
-    # ---------- Index building ----------
-
+    # ---------- Index building ---------- (Internal to engine)
     def _build_index(self) -> None:
         """Build FAISS index over all chunks from all documents."""
         self.records = []
@@ -126,7 +123,7 @@ class RAGEngine:
 
         self.index = index
 
-    # ---------- Retrieval ----------
+    # ---------- Retrieval ---------- (Public API)
     def retrieve(self, question: str, top_k: int = 3) -> List[Dict[str, Any]]:
         """
         Returns list of dicts:
@@ -155,7 +152,7 @@ class RAGEngine:
             )
         return out
 
-    # ---------- Generation ----------
+    # ---------- Generation ---------- (Public API)
     def generate_answer(self, question: str, context_chunks: List[str]) -> str:
         context = "\n\n---\n\n".join(context_chunks)
         prompt = textwrap.dedent(
@@ -180,7 +177,7 @@ class RAGEngine:
         )
         return self.tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
 
-    # ---------- End-to-end ----------
+    # ---------- End-to-end ---------- (Public API)
     def ask(self, question: str, top_k: int = 3) -> Dict[str, Any]:
         """
         End-to-end RAG:
