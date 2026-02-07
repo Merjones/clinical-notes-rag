@@ -73,4 +73,5 @@ def ask(req: AskRequest):
         {"doc_id": s["doc_id"], "chunk_id": s["chunk_id"], "score": float(s["score"])}
          for s in result.get("sources", [])
     ]
+    result['sources'] = sources
     return result
