@@ -1,0 +1,24 @@
+SYNTHETIC CLINICAL NOTE (FOR DEMO ONLY)
+
+Chief Complaint: Left wrist pain after fall.
+
+HPI:
+28-year-old slipped on ice and landed on outstretched hand. Immediate pain and swelling. Denies numbness or tingling.
+
+Vitals:
+Stable.
+
+Exam:
+Swelling and tenderness over distal radius. Limited range of motion due to pain. Neurovascular status intact.
+
+Imaging:
+X-ray shows nondisplaced distal radius fracture.
+
+Assessment:
+Closed distal radius fracture.
+
+Plan:
+- Immobilize with splint
+- Ibuprofen 600 mg q6h PRN pain
+- Orthopedic follow-up in 1 week
+- Elevation and ice

@@ -1,0 +1,21 @@
+SYNTHETIC CLINICAL NOTE (FOR DEMO ONLY)
+
+Chief Complaint: Medication refill and blood pressure check.
+
+HPI:
+55-year-old with hypertension presents for routine medication review. No headaches, chest pain, or vision changes. Reports good adherence.
+
+Vitals:
+BP 154/92, HR 82, RR 16.
+
+Exam:
+Cardiopulmonary exam normal. No edema.
+
+Assessment:
+Essential hypertension, poorly controlled.
+
+Plan:
+- Increase lisinopril to 20 mg daily
+- Continue hydrochlorothiazide 25 mg daily
+- Low sodium diet counseling
+- Recheck BP in 4 weeks

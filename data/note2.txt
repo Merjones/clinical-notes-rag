@@ -1,0 +1,24 @@
+SYNTHETIC CLINICAL NOTE (FOR DEMO ONLY)
+
+Chief Complaint: Routine diabetes follow-up.
+
+HPI:
+62-year-old with type 2 diabetes mellitus presents for routine visit. Reports mild fatigue but no polyuria or polydipsia. Home glucose readings range 150–190 mg/dL. Admits inconsistent diet adherence.
+
+Vitals:
+T 98.2 F, HR 78, BP 138/86, RR 16, SpO2 98% RA.
+
+Exam:
+No acute distress. Cardiopulmonary exam normal. Feet without ulcers. Sensation mildly decreased to monofilament testing.
+
+Labs:
+HbA1c 8.4%, fasting glucose 176 mg/dL.
+
+Assessment:
+Type 2 diabetes, suboptimal control.
+
+Plan:
+- Continue metformin 1000 mg BID
+- Start glipizide 5 mg daily
+- Diet and exercise counseling
+- Follow-up in 3 months

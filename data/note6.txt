@@ -1,0 +1,21 @@
+SYNTHETIC CLINICAL NOTE (FOR DEMO ONLY)
+
+Chief Complaint: Low mood and anxiety.
+
+HPI:
+34-year-old reports 2 months of depressed mood, poor sleep, decreased concentration, and intermittent anxiety. Denies suicidal ideation. Stress related to work.
+
+Vitals:
+Stable.
+
+Exam:
+Alert and oriented. Affect mildly flat. Speech normal rate and tone.
+
+Assessment:
+Major depressive disorder, moderate severity with generalized anxiety.
+
+Plan:
+- Start sertraline 50 mg daily
+- Referral to cognitive behavioral therapy
+- Sleep hygiene counseling
+- Follow-up in 4 weeks

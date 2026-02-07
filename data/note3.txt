@@ -1,0 +1,25 @@
+SYNTHETIC CLINICAL NOTE (FOR DEMO ONLY)
+
+Chief Complaint: Fever and productive cough.
+
+HPI:
+71-year-old presents with 4 days of fever, chills, and yellow sputum production. Increasing shortness of breath and pleuritic chest pain. Denies recent travel.
+
+Vitals:
+T 101.9 F, HR 110, BP 118/70, RR 24, SpO2 91% RA.
+
+Exam:
+Crackles in right lower lobe. Mild respiratory distress.
+
+Imaging:
+Chest X-ray shows right lower lobe consolidation.
+
+Assessment:
+Community-acquired pneumonia.
+
+Plan:
+- Start ceftriaxone IV daily
+- Azithromycin PO
+- Supplemental oxygen
+- Admit for observation
+- Encourage incentive spirometry
