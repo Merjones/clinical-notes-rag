@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  clinical-rag-api:
+    build: .
+    container_name: clinical-rag-api
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount data directory for easy updates
+      - ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
