@@ -73,5 +73,12 @@ clinical-rag/
  - start server: uvicorn app:app --reload
  - interactive Swagger UI available (/docs)
 
+## Quick Start with Docker
+
+1. Install Docker Desktop
+2. Clone this repo
+3. Run: `docker-compose up --build`
+4. Visit: http://localhost:8000/docs
+5. Test: `python scripts/batch_query.py`
    
 
